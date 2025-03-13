@@ -38,7 +38,7 @@ pipeline {
             steps {
                 script {
                     echo "Testing the C++ file..."
-                    sh '.' + EXEC_FILE
+                    sh './' + EXEC_FILE
                 }
             }
         }
